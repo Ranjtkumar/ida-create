@@ -4,15 +4,18 @@ import './index.css'
 import About from './components/About';
 import Services from './components/Services';
 
+
 function App() {
   return (
     <div>
-      <div className='bg-slate-200 grid grid-cols-12 px-20 py-20'>
+      <div className="bg-slate-200 grid grid-cols-12 px-20 py-20 ">
         <div className="col-span-6">
           <img src="/assets/learn.jpeg" className="w-3/4 h-72 rounded-lg" />
           <button className="mt-3 bg-green-600 hover:bg-green-400 px-5 py-3 rounded-full text-lg text-white font-bold">
             Explore Now
           </button>
+
+          <img src=""/>
 
         </div>
 
