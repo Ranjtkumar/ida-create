@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.service-card:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}
